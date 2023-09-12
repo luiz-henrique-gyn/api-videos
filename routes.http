@@ -1,0 +1,22 @@
+POST http://localhost:5000/videos
+Content-Type: application/json
+
+{
+    "title": "video node256552522255",
+    "description": "este o primero video",
+    "duration":180
+}
+###
+GET  http://localhost:5000/videos
+
+###
+PUT http://localhost:5000/videos/
+Content-Type: application/json
+
+{
+    "title": " sucesso",
+    "description": "Apenas mais um teste",
+    "duration":180
+}
+###
+DELETE http://localhost:5000/videos/
